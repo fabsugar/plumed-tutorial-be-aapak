@@ -10,4 +10,5 @@ B[Metadynamics: cis-trans isomerization]==>H[FCAM: Free energy]
 C[Bias-Exchange: cis-trans isomerization]==>I[FCAM: Free energy]
 G[Tutorial Instructions]
 click D "tute" "A tutorial on the basic plumed syntax"
+click G "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/protocol1_md-meta-be.pdf" "Tutorial Instructions"
 ```
