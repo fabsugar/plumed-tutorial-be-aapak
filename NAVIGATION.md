@@ -11,8 +11,8 @@ C[Bias-Exchange: cis-trans isomerization]==>I[FCAM: Free energy]
 G[Tutorial Instructions]
 L[tutorial files]
 click E "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
-click F "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
-click H "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
+click F "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
+click H "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
 click I "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
 click D "tute" "A tutorial on the basic plumed syntax"
 click G "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/protocol1_md-meta-be.pdf" "Tutorial Instructions"
