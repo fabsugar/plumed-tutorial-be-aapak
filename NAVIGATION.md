@@ -1,6 +1,6 @@
 ```mermaid
 flowchart LR
-A[PLUMED syntax] ==> B[Lecture I]
+A[PLUMED syntax] --> B[Lecture I]
 B ==> C[Instructions]
 C ==> D[solution]
 click A "http://www.plumed-tutorials.org/lessons/21/001/data/NAVIGATION.html" "You should complete this earlier masterclass before completing this exercise"
