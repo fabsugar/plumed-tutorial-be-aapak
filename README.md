@@ -21,7 +21,7 @@ click E "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster a
 click F "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click H "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
 click I "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
-click D "tute" "A tutorial on the basic plumed syntax"
+click D "http://www.plumed-tutorials.org/lessons/21/001/data/NAVIGATION.html" "A tutorial on the basic plumed syntax"
 click G "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/protocol1_md-meta-be.pdf" "Tutorial Instructions"
 click L "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/tutorial_files.zip" "tutorial files"
 ```
