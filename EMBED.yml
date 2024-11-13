@@ -5,7 +5,7 @@ fcam:
    location: https://github.com/FCAM-NIH/FCAM
    type: external
 basics:
-   location 21/001
+   location: 21/001
    type: internal
 files:
    location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/tutorial_files.zip
