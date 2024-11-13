@@ -1,3 +1,12 @@
-tute:
-   location: 21/001
-   type: internal 
+metagui:
+   location: https://github.com/metagui/metagui3
+   type: external
+fcam:
+   location: https://github.com/FCAM-NIH/FCAM
+   type: external
+basics:
+   location 21/001
+   type: internal
+files:
+   location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/tutorial_files.zip
+   type: external
