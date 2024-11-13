@@ -10,3 +10,6 @@ basics:
 files:
    location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/tutorial_files.zip
    type: external
+protocol1_md-meta-be.pdf:
+   location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/protocol1_md-meta-be.pdf
+   type: external
