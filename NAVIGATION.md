@@ -17,6 +17,6 @@ click H "fcam" "FCAM: free energy calculation based on mean forces (Marinelli et
 click I "fcam" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
 click D "basics" "A tutorial on the basic plumed syntax"
 click G "protocol1_md-meta-be.pdf" "Tutorial Instructions"
-click L "files" "tutorial files"
+click L "files" "Tutorial Files"
 ```
 
