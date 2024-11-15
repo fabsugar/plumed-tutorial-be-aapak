@@ -25,3 +25,9 @@ metad: METAD ARG=omega,psi PACE=1000 HEIGHT=0.2 SIGMA=0.17,0.24 FILE=HILLS
 PRINT STRIDE=500 ARG=omega,psi,metad.bias FILE=COLVAR
 DUMPFORCES ARG=omega,psi STRIDE=500 FILE=forces.dat
 ```
+The numbers in the *keyword* ```ATOMS``` are the atom numbers that define the two torsion angles, omega and psi.
+
+The *keyword* ```METAD``` directs *PLUMED* to perform a metadynamics calculation with a Gaussian height of ```HEIGHT=0.2``` and widths of ```SIGMA=0.17,0.24```. The vaules of ```SIGMA``` roughly correspond to the standard deviation of each torsion angle, as computed in unbiased simulations.
+
+The line starting with ```PRINT``` instruct plumed to write collective variables and bias potential every 500 step to the file ```COLVAR```.
+The line starting with ```DUMPFORCES``` instruct plumed to write the applied forces on the collective variables,```omega,psi``` to the file ```forces.dat```. 
