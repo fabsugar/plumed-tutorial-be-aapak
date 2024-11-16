@@ -33,7 +33,7 @@ be: METAD ARG=cv1 PACE=1000 HEIGHT=0.2 SIGMA=0.17
 PRINT STRIDE=500 ARG=cv1,cv2 FILE=COLVAR
 DUMPFORCES ARG=cv1,cv2 STRIDE=500 FILE=forces.dat
 ```
-The second *PLUMED* file entails a metadynamics on the psi angle (```cv2```)::
+The second *PLUMED* file entails a metadynamics on the psi angle (```cv2```):
 
 ```plumed
 INCLUDE FILE=../plumed_be-common.dat
