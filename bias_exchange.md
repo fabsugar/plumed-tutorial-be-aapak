@@ -1,6 +1,6 @@
-# Bias exchange metadynamics simulation of the cis-trans isomerization of a Peptidyl-Prolyl Peptide
+# Bias exchange metadynamics simulation of the cis-trans isomerization of a Prolyl Peptide
 
-PLUMED input for a bias-exchange metadynamics simulation of the cis-trans isomerization in a Peptidyl-Prolyl peptide (see also that of a bi-dimensional metadynamics). The simulation utilizes two replicas, each applying a bias to one of the torsion angles, omega and psi, that describe the cis-trans transition at the proline peptide bond, along with the associated auxiliary conformational motion, respectively. Replica exchanges are attempted at regular intervals and accepted according to a Metropolis criterion, based on the biasing potentials of the replicas.
+PLUMED input for a bias-exchange metadynamics simulation of the cis-trans isomerization in a Prolyl peptide (see also that of a bi-dimensional metadynamics). The simulation utilizes two replicas, each applying a bias to one of the torsion angles, omega and psi, that describe the cis-trans transition at the proline peptide bond, along with the associated auxiliary conformational motion, respectively. Replica exchanges are attempted at regular intervals and accepted according to a Metropolis criterion, based on the biasing potentials of the replicas.
 The setup entails one common *PLUMED* file specifing the two torsional angles, omega and psi, and the ```RANDOM_EXCHANGES``` *keyword* instructing *PLUMED* to make exchanges between randomly chosen replicas:  
 
 ```plumed
