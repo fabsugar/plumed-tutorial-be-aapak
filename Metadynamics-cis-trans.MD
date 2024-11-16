@@ -30,4 +30,4 @@ The numbers in the *keyword* ```ATOMS``` are the atom numbers that define the tw
 The *keyword* ```METAD``` directs *PLUMED* to perform a metadynamics calculation with a Gaussian height of ```HEIGHT=0.2``` and widths of ```SIGMA=0.17,0.24```. The vaules of ```SIGMA``` roughly correspond to the standard deviation of each torsion angle, as computed in unbiased simulations.
 
 The line starting with ```PRINT``` instruct plumed to write collective variables and bias potential every 500 step to the file ```COLVAR```.
-The line starting with ```DUMPFORCES``` instruct plumed to write the applied forces on the collective variables,```omega,psi``` to the file ```forces.dat```. 
+The line starting with ```DUMPFORCES``` instruct plumed to write the applied forces on the collective variables,```omega,psi``` to the file ```forces.dat```. Writing the applied forces is useful to calculate the free energy based on the force correction analysis method (FCAM, Marinelli et al. JCTC 2021, https://github.com/FCAM-NIH/FCAM) 
