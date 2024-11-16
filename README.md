@@ -7,8 +7,8 @@ The file `tutorial_files.zip` contain the necessary input files to perform the t
 
 ```mermaid
 flowchart LR
-A[MD: Peptidyl-Prolyl] ==> B[Metadynamics: cis-trans isomerization]
-A[MD: Peptidyl-Prolyl] ==> C[Bias-Exchange: cis-trans isomerization]
+A[MD: Prolyl peptide] ==> B[Metadynamics: cis-trans isomerization]
+A[MD: Prolyl peptide] ==> C[Bias-Exchange: cis-trans isomerization]
 D[PLUMED syntax] ==> B[Metadynamics: cis-trans isomerization]
 D[PLUMED syntax] ==> C[Bias-Exchange: cis-trans isomerization]
 B[Metadynamics: cis-trans isomerization]==>E[WHAM: Free energy]
