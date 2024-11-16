@@ -12,4 +12,47 @@ cv1: TORSION ATOMS=19,26,28,3
 # psi (use cv1 so it will be compatible with the METAGUI analysis plugin)
 cv2: TORSION ATOMS=27,31,39,41
 ```
-Two additional *PLUMED* files are required for each metadynamics replica, and these can be placed in separate folders where each replica is being run
+Two additional *PLUMED* files are required for each metadynamics replica, and these can be placed in separate folders where each replica is being run. In these PLUMED files, the bias is applied to a single dihedral angle, with each replica biasing a different angle. The first *PLUMED* file is provided below:
+
+```plumed
+INCLUDE FILE=../plumed_be-common.dat
+
+#METAD activates metadynamics
+#ARG indicates variables to enhance (omega & psi)
+#PACE indicates frequency of Gaussian deposition is 1000 time step (2ps)
+#HEIGHT indicates that height of the Gaussians is 0.2 kJ/mol
+#SIGMA indicates the width of the Gaussians on the biased cv, respectively
+
+be: METAD ARG=cv1 PACE=1000 HEIGHT=0.2 SIGMA=0.17
+
+#print in other file the values of the CVS and the bias potential
+#STRIDE frequency of output
+#ARG things to print, omega, psi
+#FILE, name of the file to output; COLVAR
+
+PRINT STRIDE=500 ARG=cv1,cv2 FILE=COLVAR
+DUMPFORCES ARG=cv1,cv2 STRIDE=500 FILE=forces.dat
+```
+The second *PLUMED* file is the following:
+
+```plumed
+INCLUDE FILE=../plumed_be-common.dat
+
+#METAD activates metadynamics
+#ARG indicates variables to enhance (omega & psi)
+#PACE indicates frequency of Gaussian deposition is 1000 time step (2ps)
+#HEIGHT indicates that height of the Gaussians is 0.2 kJ/mol
+#SIGMA indicates the width of the Gaussians on the biased cv, respectively
+
+be: METAD ARG=cv2 PACE=1000 HEIGHT=0.2 SIGMA=0.24
+
+#print in other file the values of the CVS and the bias potential
+#STRIDE frequency of output
+#ARG things to print, omega, psi
+#FILE, name of the file to output; COLVAR
+
+PRINT STRIDE=500 ARG=cv1,cv2 FILE=COLVAR
+DUMPFORCES ARG=cv1,cv2 STRIDE=500 FILE=forces.dat
+```
+
+
