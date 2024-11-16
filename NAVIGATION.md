@@ -1,7 +1,7 @@
 ```mermaid
 flowchart LR
-A[MD: Peptidyl-Prolyl] ==> B[Metadynamics: cis-trans isomerization]
-A[MD: Peptidyl-Prolyl] ==> C[Bias-Exchange: cis-trans isomerization]
+A[MD: Prolyl peptide] ==> B[Metadynamics: cis-trans isomerization]
+A[MD: Prolyl peptide] ==> C[Bias-Exchange: cis-trans isomerization]
 D[PLUMED syntax] ==> B[Metadynamics: cis-trans isomerization]
 D[PLUMED syntax] ==> C[Bias-Exchange: cis-trans isomerization]
 B[Metadynamics: cis-trans isomerization]==>E[WHAM: Free energy]
@@ -11,6 +11,8 @@ C[Bias-Exchange: cis-trans isomerization]==>I[FCAM: Free energy]
 G[Tutorial Instructions]
 L[Tutorial Files]
 
+click B "2d_meta" "bi-dimensional metadynamics of the cis-trans isomerization of Prolyl peptide"
+click C "bias_exchange" "bias exchange metadynamics of the cis-trans isomerization of Prolyl peptide"
 click E "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click F "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click H "fcam" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
@@ -19,4 +21,3 @@ click D "basics" "A tutorial on the basic plumed syntax"
 click G "protocol1_md-meta-be.pdf" "Tutorial Instructions"
 click L "files" "Tutorial Files"
 ```
-
