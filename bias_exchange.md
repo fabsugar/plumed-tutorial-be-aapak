@@ -1,8 +1,8 @@
 # Bias exchange metadynamics simulation of the cis-trans isomerization of a Peptidyl-Prolyl Peptide
 
-Input for PLUMED specifying a bias exchange metadynamics simulation of the cis-trans isomerization in a Peptidyl-Prolyl peptide. 
+PLUMED input for a bias-exchange metadynamics simulation of the cis-trans isomerization in a Peptidyl-Prolyl peptide. The simulation utilizes two replicas, each applying a bias to one of the torsion angles, omega and psi, that describe the cis-trans transition at the proline peptide bond, along with the associated auxiliary conformational motion, respectively. Replica exchanges are attempted at regular intervals and accepted according to a Metropolis criterion, based on the biasing potentials of the replicas.
+For running the bias exchange with two replicas we need 3 PLUMED files; one common (here we named it plumed_be-common.dat) and two other files for each metadynamics replica (plumed.0.dat and plumed.1.dat).![image](https://github.com/user-attachments/assets/67fa1f3b-0642-4fad-9426-0c85a683e6b8)
 
-The collective variables are the dihedral angles omega and psi. Omega captures the cis-trans transition across the peptide bond, while psi serves as an auxiliary collective variable, aiding in the exploration and equilibration of the peptide's conformational space during the isomerization process.
 
 ```plumed
 # set up the two torsion collective variables
