@@ -17,5 +17,5 @@ protocol1_md-meta-be.pdf:
    location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/Metadynamics-cis-trans.MD
    type: external
 bias_exchange:
-   location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/Metadynamics-cis-trans.MD
+   location:  https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/bias_exchange.md
    type: external
