@@ -17,7 +17,7 @@ B[Metadynamics: cis-trans isomerization]==>H[FCAM: Free energy]
 C[Bias-Exchange: cis-trans isomerization]==>I[FCAM: Free energy]
 G[Tutorial Instructions]
 L[Tutorial Files]
-click B "" "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/Metadynamics-cis-trans.MD"
+click B "https://github.com/fabsugar/plumed-tutorial-be-aapak/blob/main/Metadynamics-cis-trans.MD" "bi-dimensional metadynamics of the cis-trans isomerization of Prolyl peptide"
 click E "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click F "https://github.com/metagui/metagui3" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click H "https://github.com/FCAM-NIH/FCAM" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
