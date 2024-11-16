@@ -54,5 +54,5 @@ be: METAD ARG=cv2 PACE=1000 HEIGHT=0.2 SIGMA=0.24
 PRINT STRIDE=500 ARG=cv1,cv2 FILE=COLVAR
 DUMPFORCES ARG=cv1,cv2 STRIDE=500 FILE=forces.dat
 ```
-Both *PLUMED* files output the collective variables and applied forces to the files ```COLVAR``` and ```forces.dat``` via the keywords ```PRINT``` and ```DUMPFORCES```, respectively. Both these files are useful for calculating the bi-dimensional free energy as a function of omega and psi, using the force correction analysis method (FCAM, Marinelli et al. JCTC 2021, https://github.com/FCAM-NIH/FCAM).
+Both *PLUMED* files output the collective variables and applied forces to the files ```COLVAR``` and ```forces.dat``` via the keywords ```PRINT``` and ```DUMPFORCES```, respectively. Both these files are useful for calculating the bi-dimensional free energy as a function of omega and psi, using the sampling of both replicas via the force correction analysis method (FCAM, Marinelli et al. JCTC 2021, https://github.com/FCAM-NIH/FCAM). Detailed documentation on setup and analysis is provided on the Tutorial Instructions. 
 
