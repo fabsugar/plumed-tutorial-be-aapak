@@ -1,6 +1,6 @@
 # Bi-dimensional metadynamics simulation of the cis-trans isomerization of a Prolyl Peptide
 
-Input for PLUMED specifying a two-dimensional metadynamics simulation of the cis-trans isomerization in a Peptidyl-Prolyl peptide. The collective variables are the dihedral angles omega and psi. Omega captures the cis-trans transition across the peptide bond, while psi serves as an auxiliary collective variable, aiding in the exploration and equilibration of the peptide's conformational space during the isomerization process.
+Input for PLUMED specifying a two-dimensional metadynamics simulation of the cis-trans isomerization in a Prolyl peptide. The collective variables are the dihedral angles omega and psi. Omega captures the cis-trans transition across the peptide bond, while psi serves as an auxiliary collective variable, aiding in the exploration and equilibration of the peptide's conformational space during the isomerization process.
 
 ```plumed
 # set up the two torsion collective variables
