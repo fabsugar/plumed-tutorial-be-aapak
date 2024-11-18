@@ -15,7 +15,7 @@ cv2: TORSION ATOMS=27,31,39,41
 Two additional *PLUMED* files are required for each metadynamics replica, and these can be placed in separate folders where each replica is being run. These *PLUMED* files read the definitions of collective variables and other shared parameters from the common *PLUMED* file using the ```INCLUDE FILE``` *keyword*. The bias is applied to a single dihedral angle, with each replica biasing a different angle. The first *PLUMED* file performs metadynamics on the omega angle (```cv1```):
 
 ```plumed
-INCLUDE FILE=../plumed_be-common.dat
+INCLUDE FILE=plumed_be-common.dat
 
 #METAD activates metadynamics
 #ARG indicates variables to enhance (omega & psi)
@@ -36,7 +36,7 @@ DUMPFORCES ARG=cv1,cv2 STRIDE=500 FILE=forces.dat
 The second *PLUMED* file entails a metadynamics on the psi angle (```cv2```):
 
 ```plumed
-INCLUDE FILE=../plumed_be-common.dat
+INCLUDE FILE=plumed_be-common.dat
 
 #METAD activates metadynamics
 #ARG indicates variables to enhance (omega & psi)
