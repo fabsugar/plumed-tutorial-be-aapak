@@ -11,11 +11,11 @@ L[Tutorial Files]
 
 click B "README.md" "PLUMED input instructions"
 click C "README.md" "PLUMED input instructions"
+click D "basics" "A tutorial on the basic plumed syntax"
 click E "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click F "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click H "fcam" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
 click I "fcam" "FCAM: free energy calculation based on mean forces (Marinelli et al. JCTC 2021)"
-click D "basics" "A tutorial on the basic plumed syntax"
 click G "protocol1_md-meta-be.pdf" "Tutorial Instructions"
 click L "files" "Tutorial Files"
 ```
