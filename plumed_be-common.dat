@@ -1,0 +1,7 @@
+# randomize the exchange (not between consecutive indeces, here just 2 replicas, so it is not relevant)
+RANDOM_EXCHANGES
+# set up the two torsion collective variables 
+# omega (use cv1 so it will be compatible with the METAGUI analysis plugin)
+cv1: TORSION ATOMS=19,26,28,3
+# psi (use cv1 so it will be compatible with the METAGUI analysis plugin)
+cv2: TORSION ATOMS=27,31,39,41
