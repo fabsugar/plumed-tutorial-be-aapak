@@ -1,7 +1,5 @@
 ```mermaid
 flowchart LR
-A[MD: Prolyl peptide] ==> B[Metadynamics: cis-trans isomerization]
-A[MD: Prolyl peptide] ==> C[Bias-Exchange: cis-trans isomerization]
 D[PLUMED syntax] ==> B[Metadynamics: cis-trans isomerization]
 D[PLUMED syntax] ==> C[Bias-Exchange: cis-trans isomerization]
 B[Metadynamics: cis-trans isomerization]==>E[WHAM: Free energy]
