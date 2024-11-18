@@ -10,7 +10,7 @@ G[Tutorial Instructions]
 L[Tutorial Files]
 
 click B "Metadynamics-cis-trans.MD" "PLUMED input instructions for bi-dimensional metadynamics"
-click C "bias_exchange.md" "PLUMED input instructions for bias exchange metadynamics"
+click C "bias_exchange.md" "PLUMED input instructions for bias-exchange metadynamics"
 click D "basics" "A tutorial on the basic plumed syntax"
 click E "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
 click F "metagui" "metagu3: VMD plugin for cluster and free energy analysis (Giorgino et al. Comp Phys Comm 2017)"
